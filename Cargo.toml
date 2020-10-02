@@ -8,14 +8,14 @@ edition = "2018"
 
 [dependencies]
 anyhow = "1.0"
-image = "0.23"
-winit = "0.22"
+bytemuck = "1.4"
 cgmath = "0.17"
 env_logger = "0.7"
+futures = "0.3"
+image = "0.23"
 log = "0.4"
 wgpu = "0.6"
-futures = "0.3"
-bytemuck = "1.4"
+winit = "0.22"
 
 [build-dependencies]
 anyhow = "1.0"
